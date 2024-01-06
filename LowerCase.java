@@ -12,7 +12,7 @@ public class LowerCase {
     */
     public static String lowerCase(String s) {  
         int a=0;
-        String result = " ";
+        String result = "";
         for(int i=0;i<s.length();i++){
             a = (int) s.charAt(i);
             if( a<91 && (int) a>64 ){
