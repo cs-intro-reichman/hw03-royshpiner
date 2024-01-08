@@ -15,7 +15,7 @@ public class lowercase {
         String result = "";
         for(int i=0;i<s.length();i++){
             a = (int) s.charAt(i);
-            if( a<91 && (int) a>64 ){
+            if( a<91 && a>64 ){
                 a+=32;
             }
             result += (char) a;
